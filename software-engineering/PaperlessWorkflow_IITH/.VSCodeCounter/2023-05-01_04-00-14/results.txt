@@ -1,0 +1,102 @@
+Date : 2023-05-01 04:00:14
+Directory : /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH
+Total : 49 files,  20740 codes, 458 comments, 382 blanks, all 21580 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          4 |     18,273 |          0 |          5 |     18,278 |
+| Python           |         18 |        918 |        359 |        176 |      1,453 |
+| JavaScript JSX   |         17 |        895 |         41 |        111 |      1,047 |
+| JavaScript       |          5 |        530 |         35 |         40 |        605 |
+| Markdown         |          2 |         49 |          0 |         39 |         88 |
+| pip requirements |          1 |         32 |          0 |          1 |         33 |
+| CSS              |          1 |         26 |          0 |          6 |         32 |
+| HTML             |          1 |         17 |         23 |          4 |         44 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                 |         49 |     20,740 |        458 |        382 |     21,580 |
+| . (Files)                                                                                         |          2 |         43 |          0 |          7 |         50 |
+| frontend                                                                                          |         28 |     19,755 |         99 |        197 |     20,051 |
+| frontend (Files)                                                                                  |          4 |     18,305 |          5 |         41 |     18,351 |
+| frontend/public                                                                                   |          2 |         42 |         23 |          5 |         70 |
+| frontend/src                                                                                      |         22 |      1,408 |         71 |        151 |      1,630 |
+| frontend/src (Files)                                                                              |          4 |        290 |         30 |         25 |        345 |
+| frontend/src/components                                                                           |          1 |         21 |          0 |          3 |         24 |
+| frontend/src/data                                                                                 |          1 |        223 |          0 |         15 |        238 |
+| frontend/src/pages                                                                                |         16 |        874 |         41 |        108 |      1,023 |
+| frontend/src/pages/FAQ                                                                            |          1 |         65 |          0 |          5 |         70 |
+| frontend/src/pages/admin                                                                          |          1 |         22 |          0 |          4 |         26 |
+| frontend/src/pages/form                                                                           |          8 |        368 |         22 |         62 |        452 |
+| frontend/src/pages/form (Files)                                                                   |          3 |        250 |         17 |         40 |        307 |
+| frontend/src/pages/form/fields                                                                    |          5 |        118 |          5 |         22 |        145 |
+| frontend/src/pages/global                                                                         |          2 |        207 |         15 |         15 |        237 |
+| frontend/src/pages/home                                                                           |          1 |         24 |          0 |          5 |         29 |
+| frontend/src/pages/login                                                                          |          2 |        100 |          3 |         13 |        116 |
+| frontend/src/pages/table                                                                          |          1 |         88 |          1 |          4 |         93 |
+| server                                                                                            |         19 |        942 |        359 |        178 |      1,479 |
+| server (Files)                                                                                    |          6 |        299 |         35 |         56 |        390 |
+| server/Controller                                                                                 |          2 |        111 |         28 |         18 |        157 |
+| server/Model                                                                                      |         11 |        532 |        296 |        104 |        932 |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                          | language         | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/README.md                                   | Markdown         |         11 |          0 |          6 |         17 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/README.md                          | Markdown         |         38 |          0 |         33 |         71 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/eventHandlers.js                   | JavaScript       |         43 |          5 |          6 |         54 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/package-lock.json                  | JSON             |     18,169 |          0 |          1 |     18,170 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/package.json                       | JSON             |         55 |          0 |          1 |         56 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/public/index.html                  | HTML             |         17 |         23 |          4 |         44 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/public/manifest.json               | JSON             |         25 |          0 |          1 |         26 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/App.js                         | JavaScript       |         47 |         24 |          7 |         78 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/components/Header.jsx          | JavaScript JSX   |         21 |          0 |          3 |         24 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/data/mockData.js               | JavaScript       |        223 |          0 |         15 |        238 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/index.css                      | CSS              |         26 |          0 |          6 |         32 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/index.js                       | JavaScript       |         20 |          0 |          3 |         23 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/FAQ/index.jsx            | JavaScript JSX   |         65 |          0 |          5 |         70 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/admin/index.jsx          | JavaScript JSX   |         22 |          0 |          4 |         26 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/FillForm.jsx        | JavaScript JSX   |         77 |          6 |         12 |         95 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/Modal.jsx           | JavaScript JSX   |        103 |          1 |         14 |        118 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/fields/Check.jsx    | JavaScript JSX   |         18 |          0 |          5 |         23 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/fields/Date.jsx     | JavaScript JSX   |         22 |          0 |          5 |         27 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/fields/Dropdown.jsx | JavaScript JSX   |         28 |          2 |          6 |         36 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/fields/File.jsx     | JavaScript JSX   |         29 |          0 |          3 |         32 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/fields/Text.jsx     | JavaScript JSX   |         21 |          3 |          3 |         27 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/form/index.jsx           | JavaScript JSX   |         70 |         10 |         14 |         94 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/global/Sidebar.jsx       | JavaScript JSX   |        157 |         13 |         10 |        180 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/global/Topbar.jsx        | JavaScript JSX   |         50 |          2 |          5 |         57 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/home/index.jsx           | JavaScript JSX   |         24 |          0 |          5 |         29 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/login/LoginTopbar.jsx    | JavaScript JSX   |         31 |          2 |          4 |         37 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/login/index.jsx          | JavaScript JSX   |         69 |          1 |          9 |         79 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/pages/table/index.jsx          | JavaScript JSX   |         88 |          1 |          4 |         93 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/frontend/src/theme.js                       | JavaScript       |        197 |          6 |          9 |        212 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/requirements.txt                            | pip requirements |         32 |          0 |          1 |         33 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Controller/__init__.py               | Python           |          0 |          0 |          1 |          1 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Controller/command.py                | Python           |        111 |         28 |         17 |        156 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/__init__.py                    | Python           |          0 |          0 |          1 |          1 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/data.py                        | Python           |         72 |         70 |         15 |        157 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/database_manager.py            | Python           |         40 |         29 |          9 |         78 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/email_manager.py               | Python           |         71 |         10 |         15 |         96 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/fields.py                      | Python           |         49 |         43 |          9 |        101 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/form.py                        | Python           |         88 |         92 |         24 |        204 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/formMetaData.py                | Python           |         40 |         17 |          9 |         66 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/forminfo.json                  | JSON             |         24 |          0 |          2 |         26 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/level.py                       | Python           |         32 |          9 |          4 |         45 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/user.py                        | Python           |         59 |         24 |         12 |         95 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/Model/util.py                        | Python           |         57 |          2 |          4 |         63 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/app.py                               | Python           |         15 |          0 |          2 |         17 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/demo.py                              | Python           |         19 |          0 |          6 |         25 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/fetch_user.py                        | Python           |         14 |          0 |          5 |         19 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/formSubmit.py                        | Python           |         19 |          0 |          8 |         27 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/router.py                            | Python           |         57 |          0 |          7 |         64 |
+| /Users/amanpanwar/Desktop/Misc/PaperlessWorkflow_IITH/server/test_caller.py                       | Python           |        175 |         35 |         28 |        238 |
+| Total                                                                                             |                  |     20,740 |        458 |        382 |     21,580 |
++---------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

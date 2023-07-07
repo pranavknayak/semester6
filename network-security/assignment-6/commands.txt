@@ -1,0 +1,12 @@
+`openssl ecparam -name brainpoolP512r1 -genkey -out rootKey.pem`                                            -- created root key pair using diffie helman w 512 bit size
+`openssl genrsa -out intKey.pem 2048`                                                                       -- created intermediate ca key pair using rsa 
+`openssl req -x509 -sha256 -new -nodes -key rootKey.pem -days 356 -out root.crt`                            -- created root cert
+`openssl req -new -key intKey.pem -out intCSR.csr`                                                          -- created intermediate ca csr 
+`openssl x509 -req -days 356 -in intCSR.csr -CA root.crt -CAkey rootKey.pem -CAcreateserial -out int.crt`   --  signed intermediate ca csr using root ca crt 
+`openssl genrsa -out aliceKey.pem 1024`                                                                     -- created alice's key pair
+`openssl req -new -key aliceKey.pem -out aliceCSR.csr`                                                      -- created alice's csr 
+`openssl x509 -req -days 356 -in aliceCSR.csr -CA int.crt -CAkey intKey.pem -CAcreateserial -out alice.crt` -- created alice's certificate, signed by intermediate ca
+`openssl ecparam -name prime256v1 -genkey -out bobKey.pem`                                                  -- created bob's key pair using diffie helman w 256 bit size
+`openssl req -new -key bobKey.pem -out bobCSR.csr`                                                          -- created bob's csr 
+`openssl x509 -req -days 356 -in bobCSR.csr -CA int.crt -CAkey intKey.pem -CAcreateserial -out bob.crt`     -- created bob's certificate, signed by intermediate ca
+

@@ -1,0 +1,29 @@
+Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: C = IN, ST = Telangana, L = Kandi, O = IITH, CN = www.bob.com, emailAddress = es20btech11035@iith.ac.in
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (1024 bit)
+                Modulus:
+                    00:ca:7a:d8:6f:60:87:4f:82:8b:61:a1:81:62:a2:
+                    2b:f6:eb:be:f3:6d:54:a8:58:b3:df:c3:4d:8e:0b:
+                    92:79:4c:2f:ba:45:9a:4d:68:35:49:35:7e:5c:0b:
+                    0b:88:52:96:80:33:c0:b3:90:fc:3a:d7:2a:f0:ba:
+                    97:eb:94:eb:1d:d9:ee:cb:6a:2d:86:90:5b:69:ed:
+                    fa:8a:0a:a7:ad:54:68:0a:c2:d1:ff:a4:06:11:66:
+                    7b:f4:b4:17:eb:4a:8e:49:d4:9b:c4:65:f7:af:c1:
+                    22:9a:7b:c5:b5:99:7b:ef:32:00:81:3f:33:28:02:
+                    9a:c6:4f:de:a9:70:70:a8:5d
+                Exponent: 65537 (0x10001)
+        Attributes:
+            a0:00
+    Signature Algorithm: sha256WithRSAEncryption
+         69:fc:35:e8:07:27:a8:41:00:22:7d:a3:aa:e5:6e:06:d5:d7:
+         5d:7a:fa:78:c1:aa:41:6d:1d:3d:49:df:fa:5f:72:ea:54:7b:
+         26:ab:c0:ee:28:ef:9d:22:6e:0c:c4:e9:63:a4:41:3e:81:85:
+         71:bc:da:51:46:0d:c3:65:c3:8b:65:94:07:79:61:52:60:54:
+         c0:dd:77:aa:84:c2:88:2e:b4:3a:21:67:ce:58:7c:4d:0e:cc:
+         0f:e3:7e:34:52:88:b4:83:a3:22:62:3e:ef:09:77:1b:8c:3d:
+         14:07:1f:81:37:f7:10:a7:1a:ac:4a:bb:25:90:6d:a7:58:21:
+         23:62

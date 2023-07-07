@@ -1,0 +1,24 @@
+{
+    "leave" :   {
+                    "name"      :   "Leave Form",
+                    "n_levels"  :   3,
+                    "level_data":   [   {   "users" : [""],
+                                            "req_fields" : [["Name", "Textbox"], ["DOB", "Date"], ["Gender", "Dropdown", ["Male", "Female"]]]},
+                                        {   "users" : ["cs20btech11004@iith.ac.in", "cs20btech11060@iith.ac.in"],
+                                            "req_fields" : [["Remarks", "Textbox"]]},
+                                        {   "users" : ["es20btech11026@iith.ac.in"],
+                                            "req_fields" : [["Signature", "File"], ["Remarks", "Textbox"]]}
+                                    ]
+    },
+    "leave_example" :   {
+                    "name"      :   "Leave Form example",
+                    "n_levels"  :   3,
+                    "level_data":   [   {   "users" : [""],
+                                            "req_fields" : [["Name", "Textbox"], ["DOB", "Textbox"], ["Reason for leave", "Textbox"]]},
+                                        {   "users" : ["cs20btech11004@iith.ac.in", "cs20btech11060@iith.ac.in"],
+                                            "req_fields" : [["Officer Remarks", "Textbox"]]},
+                                        {   "users" : ["es20btech11026@iith.ac.in"],
+                                            "req_fields" : [["Signature", "Textbox"], ["Remarks", "Textbox"]]}
+                                    ]
+    }
+}

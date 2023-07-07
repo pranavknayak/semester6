@@ -1,0 +1,4 @@
+1. Setup an SSL Key Log File that automatically stores keys when packet capturing.
+2. Visit bank website
+3. Capture packets, save it as a pcap
+4. Read the capture using the keys from before.

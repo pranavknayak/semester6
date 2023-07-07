@@ -1,0 +1,7 @@
+*.pdf
+.vscode
+*.jpeg
+*.jar
+*.csv
+cryptex/
+__pycache__/

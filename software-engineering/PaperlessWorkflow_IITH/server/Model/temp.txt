@@ -1,0 +1,2 @@
+ 'ppwnotification@gmail.com'    password ->  "gyifEuVlY8ELmVsZ"
+                                app password -> "jqsgxbagdndwkqnp" 

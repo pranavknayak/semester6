@@ -1,0 +1,28 @@
+<html>
+
+<body>
+	<table border>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Department</th>
+		</tr>
+		<tr>
+			<td>00128</td>
+			<td>Zhang</td>
+			<td>Comp. Sci.</td>
+		</tr>
+		….
+	</table>
+	<form action="PersonQuery" method=get>
+		Search for:
+		<select name="persontype">
+			<option value="student" selected>Student </option>
+			<option value="instructor"> Instructor </option>
+		</select> <br>
+		Name: <input type=text size=20 name="name">
+		<input type=submit value="submit">
+	</form>
+</body>
+
+</html>

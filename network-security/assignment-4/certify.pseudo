@@ -1,0 +1,19 @@
+myCertVerify(certificate):
+	issuer := certificate.issuer
+	signature := certificate.signature
+	if issuer.isPreLoaded():
+		if issuer.decode(signature) == certificate.digest:
+			return certificate
+		else:
+			return False
+	else:
+		issuer = myCertVerify(issuer)
+		if issuer = False:
+			return False
+		else:
+			if issuer.decode(signature) == certificate.digest:
+				return certificate
+			else:
+				return False
+
+
